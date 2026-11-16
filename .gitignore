@@ -1,0 +1,16 @@
+# Python & Virtual Env
+__pycache__/
+*.py[cod]
+venv/
+.python-version
+
+# Database (로컬 테스트용 DB는 커밋 제외)
+database/*.db
+
+# Pytest & Playwright Artifacts
+.pytest_cache/
+test-results/
+playwright-report/
+
+# macOS
+.DS_Store
